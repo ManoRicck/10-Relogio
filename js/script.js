@@ -74,7 +74,7 @@ utils.$('#controls button').forEach($button => {
       })
     } else if (id === 'speedup') {
       animate(masterTL, {
-        speed: 5,
+        speed: 10,
         ease: 'out(3)',
         duration: 1500
       })
